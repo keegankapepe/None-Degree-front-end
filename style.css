@@ -1,127 +1,47 @@
 body{
-	font: 15px/1.5 Arial, Helvetical, san-serif;
-	padding: 0;
+	text-align: center;
 	marging:0;
 	background-color: #f4f4f4;
 }
 
-/*Global*/
-  .container{
-	width:80%;
-	margin:auto;
-	overflow:hidden;
-  }
 
-  ul{
-	margin:0;
-	padding:0;
- }
-  
-  .button_10{
-	height:38px;
-	background:#e8491d;
-	border:0;
-	padding-left:20px;
-	padding-right:20px;
-	color:#ffffff;
-  }
-  
- /*css for header color, backgroud, hight etc*/
- header{
-	background:#35424a;
-	color:#ffffff;
-	padding-top:#30px;
-	min-height:#70px;
-	border-bottom:#e8491d 3px solid;
- }
- 
- /*header links */
- header a{
-	color:#ffffff;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-size:16px;
- }
-   header li{
-	float: left;
-	display:inline;
-	padding: 0 20px 0 20px;
- }
- 
- /*float the barnding id to left*/
- header #branding{
-	 float:left; 
- }
- 
- header #branding h1{
-	 margin:0;
- }
 
-header nav{
-	 float:right;
-	 margin-top:10px;
- }
-  
-header .highlight, header .current a{
-color:#e8491d;
-font-weight:bold;
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
 }
 
-header a:hover{
-color:#cccccc;
-font-weight:bold;
+h2 {
+    margin: 1em 0 0.25em;
 }
 
-/*showcase, is an id so i will start with a # sign*/
-#showcase{
-	min-height:400px;
-	background:url('../img/showcase.jpg') no-repeat 0 -400px;
-	text-align:center;
-	color:#e8491d;
+h2:first-of-type {
+    margin-top: 0.5em;
 }
 
-#showcase h1{
-	margin-top:100px;
-	font-size:55px;
-	margin-bottom:10px;
-	}
-
-#showcase p{
-	font-size:20px;
+table,
+tr,
+td {
+    border: 1px solid black;
 }
 
-/*newsletter*/
-#newsletter{
-	padding:15px;
-	color:#ffffff;
-	background:#35424a;
-}
-#newsletter h1{
-	float:left;
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
 }
 
-#newsletter form{
-	float:right;
-	margin-top:15px;
+tr {
+    height: 20px;
 }
 
-#newsletter input[type="email"]{
-	padding:4px;
-	height:25px;
-	width:250;
+td {
+    width: 20px;
 }
 
-/*boxes*/
-#boxes{
-	margin-top;20px;
-	}
-
-#boxes.box{
-	float:left;
-	text-align:center;
-	width:30%;
-	padding:10px;
-	}
+input[type=number] {
+    width: 6em;
+}
 
 
 #boxes.box img{
